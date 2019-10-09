@@ -135,6 +135,10 @@ table {
 //   .top-content {
 //     box-sizing: border-box;
 //   }
+
+@media (max-width: 500px) {
+  max-width: 100%;
+}
 body {
   width: 80%;
   margin: auto;
@@ -142,11 +146,14 @@ body {
 .container {
   border: 100%;
   background-color: #d5cfcf;
+  width: 90%;
+  margin: 0 auto;
 }
+
 nav {
   margin-left: 60%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .top-content {
@@ -157,10 +164,15 @@ nav {
   font-family: serif;
   flex-wrap: wrap;
 }
+.middle-content {
+  // padding: 20px;
+  text-align: center;
+}
 
 .img {
-  width: 300px;
-  height: auto;
+  // width: 300px;
+  // height: auto;
+  border: 2px;
 
   img {
     width: 100%;
@@ -175,5 +187,6 @@ body {
 footer {
   display: flex;
   justify-content: center;
+  width: 50%;
 }
 // }
